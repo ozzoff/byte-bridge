@@ -81,7 +81,7 @@ export default function Home() {
         <section className="grid gap-[10px] grid-cols-2 sm:flex justify-center  text-center ">
     
       <div className=" w-[100%] max-w-[200px]  rounded-lg border border-gray-300 bg-white py-5 mx-auto">
-        <h2 className="title-txt font-bold ">+100</h2>
+        <h2 className="title-txt font-bold ">+130</h2>
         <p className="p">Community members</p>
       </div>
       <div className=" w-[100%] max-w-[200px] rounded-lg border border-[#ffd400] bg-[#ffd400] py-5 mx-auto">
