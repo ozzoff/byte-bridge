@@ -1,7 +1,6 @@
 "use client"
 
 import Image from "next/image";
-import { Rocket } from 'lucide-react';
 
 import './globals.css';
 import logo from '../public/images/logo-main.png';
@@ -37,7 +36,7 @@ export default function Home() {
 
   const members = [
     { name: "Odilbekov Ozodbek", role: "Founder & CEO", img: ozod },
-    { name: "Asilbek Sag'dullayev", role: "Co-founder",img: asilbek },
+    { name: "Asilbek Sag&apos;dullayev", role: "Co-founder",img: asilbek },
     { name: "Damirbek Xolnazarov", role: "Co-founder",img: damirbek },
     { name: "Ulugbek Mirzarustamov", role: "PR manager",img: ulugbek },
     { name: "Muhammadali", role: "HR manager",img: asilbek },
@@ -144,7 +143,7 @@ export default function Home() {
         </div>
       
       <p className=" text-[16px] leading-[16px] sm:p my-[10px]">
-        Join our team—bring your energy, passion, and let's create something incredible
+        Join our team—bring your energy, passion, and let&apos;s create something incredible
       </p>
       <div className=" space-x-2 ">
             <button

@@ -1,4 +1,4 @@
-import { LogOut } from 'lucide-react';
+
 import { useState, useEffect } from 'react';
 
 import logo from '../public/images/logo-main.png';
