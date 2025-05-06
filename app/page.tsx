@@ -35,11 +35,11 @@ export default function Home() {
   ];
 
   const members = [
-    { name: "Odilbekov Ozodbek", role: "Founder & CEO", img: ozod },
-    { name: "Asilbek Sag'dullayev", role: "Co-founder",img: asilbek },
-    { name: "Damirbek Xolnazarov", role: "Co-founder",img: damirbek },
-    { name: "Ulugbek Mirzarustamov", role: "PR manager",img: ulugbek },
-    { name: "Muhammadali", role: "HR manager",img: asilbek },
+    { name: "Odilbekov Ozodbek", role: "Founder & CEO", img: ozod, url: "https://t.me/ozzoff7" },
+    { name: "Asilbek Sag'dullayev", role: "Co-founder",img: asilbek, url: "https://t.me/asilbek_sg" },
+    { name: "Damirbek Xolnazarov", role: "Co-founder",img: damirbek, url: "https://t.me/D_amir777" },
+    { name: "Ulugbek Mirzarustamov", role: "PR manager",img: ulugbek, url: "https://t.me/UlugbekMirzarustamov" },
+    { name: "Muhammadali", role: "HR manager",img: asilbek, url: "https://t.me/Muhammadali588" },
     
   ];
   return (
@@ -129,7 +129,11 @@ export default function Home() {
               <Image className="rounded-lg  h-[350px] sm:h-[350px]  object-top object-cover " src={member.img} alt={member.name}  /> 
               <h4 className="text-[20px] lg:text-[25px] font-bold ">{member.name}</h4>
               <p className="text-grey p">{member.role}</p>
-              <button className="mt-4 border p px-4 py-2 rounded">Contact</button>
+              <button className="mt-4 border p px-4 py-2 rounded">
+                <a href={member.url}></a>
+                Contact
+                
+                </button>
             </div>
           </SwiperSlide>
         ))}
