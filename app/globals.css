@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+:root {
+  --yellow: #FFCC00;
+  --black: #202020;
+  --grey: #6e6e6e;
+  --white: #FFFFFF;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@font-face {
+  font-family: 'bold';
+  src: url('../public/fonts/SF-Pro-Display-Bold.otf') format('woff2');
+}
+@font-face {
+  font-family: 'regular';
+  src: url('../public/fonts/SF-Pro-Display-Regular.otf') format('woff2');
+}
+h1,h2{
+  font-family: "bold";
+}
+.logo{
+  max-width: 70px;
+}
+@layer components{
+  .heading-txt {
+    @apply text-[30px] leading-[30px]  sm:text-[50px] sm:leading-[50px]  lg:text-[60px] lg:leading-[60px]    font-[bold];
+         
+    
+  }
+    .title-txt{
+      @apply text-[30px] leading-[30px] sm:text-[40px] sm:leading-[40px]   lg:text-[50px] lg:leading-[50px]  font-[bold] ;
+  
+    }
+    .p{
+      @apply text-[18px]  sm:text-[20px] lg:text-[20px]  font-medium leading-[16px] ;
+
+    }
+    
+  
+  
+    .button-blue{
+      @apply bg-blue rounded-[10px] px-[10px] py-[5px] text-[18px] sm:text-[20px] lg:text-[20px] text-white ;
+    }
+  }
+
+body {
+  font-family:"regular";
+  margin: 0;
+  padding: 0;
+  color: var(--black);
+}
+
+section{
+  margin-left: 20% ;
+  margin-right: 20%;
+
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+.not-section{
+  margin-left: 50px ;
+  margin-right: 50px;
+
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+}
+
+
+@media (max-width: 700px) {
+  section{
+    margin-left: 30px ;
+    margin-right: 30px;
+    margin-top: 30px;
+  margin-bottom: 30px;
+  }
+  .not-section{
+    margin-left: 30px ;
+    margin-right: 30px;
+  
+    margin-top: 30px;
+  margin-bottom: 30px;
+  
+  }
+}
+
+@media (max-width: 500px) {
+  .logo{
+    max-width: 50px;
+  }
+
+  
+}
