@@ -130,8 +130,8 @@ export default function Home() {
               <h4 className="text-[20px] lg:text-[25px] font-bold ">{member.name}</h4>
               <p className="text-grey p">{member.role}</p>
               <button className="mt-4 border p px-4 py-2 rounded">
-                <a href={member.url}></a>
-                Contact
+                <a href={member.url}>Contact</a>
+                
                 
                 </button>
             </div>
