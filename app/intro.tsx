@@ -40,7 +40,7 @@ export default function Intro({ onFinish}: IntroProps) {
       <img
         src={logo.src} // Replace with your logo path
         alt="Logo"
-        className={` w-[25px] h-[25px] sm:w-32 h-32 ${hideLogo ? 'opacity-0' : 'animate-fade'}`}
+        className={` w-[50px] h-[50px] sm:w-[70px] sm:h-[70px] ${hideLogo ? 'opacity-0' : 'animate-fade'}`}
         style={{ animationFillMode: 'forwards' }}
       />
     </div>

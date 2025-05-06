@@ -36,7 +36,7 @@ export default function Home() {
 
   const members = [
     { name: "Odilbekov Ozodbek", role: "Founder & CEO", img: ozod },
-    { name: "Asilbek Sag&apos;dullayev", role: "Co-founder",img: asilbek },
+    { name: "Asilbek Sag'dullayev", role: "Co-founder",img: asilbek },
     { name: "Damirbek Xolnazarov", role: "Co-founder",img: damirbek },
     { name: "Ulugbek Mirzarustamov", role: "PR manager",img: ulugbek },
     { name: "Muhammadali", role: "HR manager",img: asilbek },
@@ -119,14 +119,14 @@ export default function Home() {
         spaceBetween={20}
         slidesPerView={1}
         breakpoints={{
-          640: { slidesPerView: 2 },
+          500: { slidesPerView: 2 },
           1024: { slidesPerView: 3 },
         }}
       >
         {members.map((member, idx) => (
           <SwiperSlide key={idx}>
             <div className="bg-white p-3 shadow rounded-xl ">
-              <Image className="rounded-lg  h-[250px] sm:h-[350px]  object-top object-cover " src={member.img} alt={member.name}  /> 
+              <Image className="rounded-lg  h-[350px] sm:h-[350px]  object-top object-cover " src={member.img} alt={member.name}  /> 
               <h4 className="text-[20px] lg:text-[25px] font-bold ">{member.name}</h4>
               <p className="text-grey p">{member.role}</p>
               <button className="mt-4 border p px-4 py-2 rounded">Contact</button>
