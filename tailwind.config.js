@@ -12,6 +12,7 @@ module.exports = {
         black:"#202020",
         grey:"#404040",
         white: "#ffffff",
+        red: "#FF3B30",
       },
       backgroundImage: {
         'grid-grey': " linear-gradient(90deg, #E4E4E4  1px, transparent 1px)",
