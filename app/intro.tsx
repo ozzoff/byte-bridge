@@ -3,7 +3,11 @@ import { useState, useEffect } from 'react';
 
 import logo from '../public/images/logo-main.png';
 
-export default function Intro({ onFinish }: any) {
+type IntroProps = {
+    onFinish: () => void;
+  };
+
+export default function Intro({ onFinish}: IntroProps) {
   const [hideLogo, setHideLogo] = useState(false);
   const [hideBackground, setHideBackground] = useState(false);
 
