@@ -64,7 +64,7 @@ export default function EventPage() {
           <br />🏅 Get Recognized: Walk away with a certificate and sharpened skills.
           <br />📍 Location: Furqat ko&rsquo;chasi, 15/1 | SATashkent
           <br />📅 Date: 04.05.2025
-          <br />🕒 Time: 2:00 PM
+          <br />🕒 Time: 4:00 PM
           <br />Bring your brain. Bring your curiosity.
           <br />Join the first ByteBridge Coding Quiz — and code your way to the top!
         </p>
@@ -72,7 +72,7 @@ export default function EventPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-10 bg-gray-100 p-6 rounded-xl">
           <div>
             <h3 className="font-semibold text-lg">When?</h3>
-            <p className="text-[18px] sm:text-[20px]">Sunday, May 11, 2025 — 2:00 PM to 4:00 PM (GMT+5)</p>
+            <p className="text-[18px] sm:text-[20px]">Sunday, May 11, 2025 — 4:00 PM (GMT+5)</p>
           </div>
           <div>
             <h3 className="font-semibold text-lg">Where?</h3>
